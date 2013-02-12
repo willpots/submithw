@@ -1,3 +1,14 @@
 #SubmitHW
 
 A simple homework submission script for Middlebury CS101. Created by Will Potter.
+
+
+
+##Installation
+1. Drag `index.php` into its own subdirectory
+1. Ensure that PHP has read/write permissions to that directory
+1. Begin uploading .zip files
+
+
+##Notes
+Only `.zip` archives are accepted under this current script

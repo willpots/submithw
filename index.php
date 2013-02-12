@@ -34,6 +34,11 @@
 			border:1pt solid #aaa;
 			border-radius: 4px;
 		}
+		footer {
+			padding:20px;
+			text-align: center;
+			font-size: 11px;
+		}
 	</style>
 </head>
 <body>
@@ -79,6 +84,8 @@ if ( isset( $_FILES["file"] ) ) {
 		<input type="submit" name="submit" value="Submit">
 	</form>
 <?php } ?>
+
+<footer>Thanks for using this <a href="https://github.com/willpots/submithw">open source</a> submit script!</footer>
 </div>
 </body>
 </html>
